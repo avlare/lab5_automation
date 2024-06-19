@@ -1,3 +1,4 @@
+package org.example;
 
 public class Main {
     private Main() {
@@ -10,6 +11,9 @@ public class Main {
      * @param args
      */
     public static void main(String[] args) {
+        // checking 1: sum must be "sum" - here have caught exception on github
+        // checking 2: missed some points
+        // checking 3:
         final int a = 5;
         final int b = 10;
         int sum = a + b;
