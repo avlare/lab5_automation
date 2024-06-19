@@ -19,5 +19,12 @@ jobs:
       - name: Analyze code with Checkstyle
         run: mvn checkstyle:check
 
-      - name: Package application
-        run: mvn package
+      - name: JAR file
+        run: mvn clean package
+
+      # not sure about this :(
+      - name: Add artifact jar
+        uses: actions/upload-artifact@v2
+        with:
+            name: project-jar
+            path: target/*.jar

@@ -13,7 +13,7 @@ public final class Main {
     public static void main(final String[] args) {
         // checking 1: sum must be "sum" - here have caught exception on github
         // checking 2: missed some points
-        // checking 3: -
+        // checking 3 (actually 4): FINALLY EVERYTHING OKAY WITH CODESTYLE
         final int a = 5;
         final int b = 10;
         int sum = a + b;
