@@ -1,8 +1,18 @@
+
 public class Main {
+    private Main() {
+
+    }
+
+    /**
+     * Sum of two ints.
+     *
+     * @param args
+     */
     public static void main(String[] args) {
-        // checking 1: sum must be "sum" - here have caught exception on github
-        // checking 2: must be OK now
-        int sum = 5 + 10;
+        final int a = 5;
+        final int b = 10;
+        int sum = a + b;
         System.out.println("Sum: " + sum);
     }
 }
